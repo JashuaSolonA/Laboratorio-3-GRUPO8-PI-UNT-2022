@@ -1,0 +1,9 @@
+iii. Explique la sentencia “para”.
+
+	La sentencia "PARA" ejecuta una secuencia de acciones un numero determinado de veces.	
+	Como lo dicta su instruccion: 
+	Para <variable> <- <inicial> Hasta <final>  Con Paso <paso> Hacer 
+		<instrucciones> 
+	FinPara
+	En la primera linea de código podemos observar como parametriza la secuencia o repeticion de acciones, y define el aumento de la <variable> desde <inicial> en <paso> unidades hasta <final>, una vez esto se cumpla dejara de repetir la secuencia.
+	Si no se especifica la razon (paso), incrementara a razon de 1 unidad.
