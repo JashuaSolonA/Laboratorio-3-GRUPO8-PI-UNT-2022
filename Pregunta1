@@ -1,0 +1,6 @@
+Explique qué es una función en programación:
+Una función es una porción de código que cumple con alguna tarea en específico.
+Las funciones pueden ser muy simples, ocupando solo unas pocas líneas, así como también pueden ser muy extensas y realizar una tarea complicada.
+Pueden necesitar o no parámetros (también llamados argumentos) y devolver algún valor o no. Básicamente, cualquier trozo de código puede llegar a ser una función.
+Los programadores las usan para poder reutilizar el código con facilidad (si en nuestro programa hay una tarea que se va a realizar varias veces, agrupamos el código que la hace posible en una función
+y la llamamos cuando sea necesaria, para evitar tener que volver a escribir lo mismo, ahorrándonos así muchas líneas de código y haciendo más fácil la lectura del proceso principal).
