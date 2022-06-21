@@ -1,0 +1,33 @@
+Proceso EJERCICIO_4
+	Escribir  "Programa para calcular promedios"
+	Escribir  "Ingrese la cantidad de alumnos"
+	leer N
+	Dimension  box[N,5]
+	dimension nom[N]
+	definir P Como Real
+	
+	
+	Para i<-1 Hasta N Con Paso 1 paso Hacer
+		Escribir "Nombre del ", i "° alumno"
+		leer u 
+		Escribir  "Ingrese la nota de la primera unidad"
+		leer n1 
+		Escribir "Ingrese su la nota de la segunda unidad"
+		leer n2 
+		Escribir "Ingrese su la nota de la tercer unidad"
+		leer n3 
+		P=(n1+n2+n3)/3
+		P1=redon(P)
+		box[i,1] <- n1
+		box[i,2] <- n2
+		box[i,3] <- n3
+		box[i,4] <- P1
+		nom[i]	<- u
+	Fin Para
+	Escribir "U1 U2 U3 P Nombre"
+	
+	Para i<-1 hasta N con paso 1 paso Hacer
+		Escribir box[i,1] " " box[i,2] " " box[i,3] " " box[i,4] " " nom[i]
+		
+	Fin PAra
+FinProceso
