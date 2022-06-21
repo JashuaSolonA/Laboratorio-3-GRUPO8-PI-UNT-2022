@@ -1,0 +1,7 @@
+Pregunta N°02: Explique la sentencia "mientras"
+La secuencia "Mientras" ejecuta una secuencia de instrucciones mientras una condición sea verdadera.
+Como lo dicta la instrucción:
+    Mientras <condición lógica> Hacer
+      <Proceso>
+    FinMientras
+Como se puede observar, si se cumple la condición lógica, entonces el programa ejecuta el proceso; y una vez hecho eso, vuelve a preguntar si se sigue cumpliendo la condición lógica para volver a repetir el proceso; y cuando no se cumpla, el proceso termina.

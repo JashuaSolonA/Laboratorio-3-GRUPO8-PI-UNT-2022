@@ -1,0 +1,19 @@
+Proceso Factorial
+	Definir N Como entero
+	Repetir 
+		Escribir "Ingrese un número"
+		Leer N
+	Hasta Que N>=0
+	calcularfactorial(N)
+FinProceso
+SubProceso calcularfactorial(N)
+	Si (N>0) y (N=1) Entonces
+		Escribir "EL factorial de ", N, " es 1"
+	SiNo
+		F=1
+		Para i=1 Hasta N Con Paso 1 Hacer
+			F=F*i
+		FinPara
+		Escribir "EL factorial de ", N, " es ", F
+	FinSi
+FinSubProceso
